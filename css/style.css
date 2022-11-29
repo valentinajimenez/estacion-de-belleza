@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  
+  }
+  
+  ul,
+  ol {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* ----- Header ----- */
+  
+  header {
+    width: 100%;
+
+    background-color: #fff;
+    padding: 15px;
+
+    position: fixed;
+    top: 0;
+  }
+  
+  header h1 {
+    text-align: center;
+  }
+  
+  header ul li {
+    padding: 10px;
+    text-align: center;
+  }
+
+
+  .item{
+    display: inline-block;
+    margin-right: 14px;
+    color: #1d2226;
+    padding: 8px 13px;
+  }
+  
+  .item:hover {
+    background-color: #fff;
+    border: 2px solid #fff;
+border-radius: 50px;
+  }
+  
+
+  @media (min-width: 1200px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    header ul {
+      display: flex;
+      gap: 20px;
+    }
+  }
+
+
+
+   /* ----- Boton ----- */
+
+   a {
+    color: black ;
+   }
+
+   .btn {
+padding: 8px 28px;
+background-color: #fff;
+border: 2px solid #fff;
+border-radius: 50px;
+   }
+
+
+
+
+  /* ----- Portada ----- */
+
+  .portada {
+  height: 100vh;
+
+background-color: rgb(255, 206, 246);
+background-image: url(../img/woman-washing-head.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  }
+
+
+  .portada h2 {
+font-size: 2rem;
+  }
+
+  .portada p {
+    font-size: 1.3rem;  
+  }
+
+  .btn-portada {
+margin-top: 30px;
+  }
+
