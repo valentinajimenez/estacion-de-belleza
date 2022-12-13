@@ -14,4 +14,70 @@ a {
   text-decoration: none;
 }
 
+a {
+  color: black;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+}
+header__titulo {
+  text-align: center;
+}
+header__navbar {
+  padding: 10px;
+  text-align: center;
+}
+header__item {
+  display: inline-block;
+  margin-right: 14px;
+  color: #1d2226;
+  padding: 8px 13px;
+}
+header__item:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+
+@media (min-width: 1200px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  header ul {
+    display: flex;
+    gap: 20px;
+  }
+}
+.portada {
+  height: 100vh;
+  background-color: rgb(255, 206, 246);
+  background-image: url(../img/woman-washing-head.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portada__titulo {
+  font-size: 2rem;
+}
+.portada__parrafo {
+  font-size: 1.3rem;
+}
+.portada__boton {
+  padding: 8px 28px;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
 /*# sourceMappingURL=styles.css.map */
