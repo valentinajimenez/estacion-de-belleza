@@ -1,0 +1,13 @@
+@import "./utils/variables";
+@import "./utils/mixin";
+
+@import "./base/base";
+@import "./components/botones";
+@import "./components/navbar";
+@import "./components/tarjeta";
+
+@import "./pages/blog.scss";
+@import "./pages/contacto.scss";
+@import "./pages/index.scss";
+@import "./pages/nosotras.scss";
+@import "./pages/servicios.scss";
