@@ -21,39 +21,28 @@ a {
 header {
   width: 100%;
   background-color: #fff;
-  padding: 15px;
   position: fixed;
   top: 0;
 }
-header__titulo {
+
+.navbar {
+  padding: 2rem;
   text-align: center;
+  background: color #f5f6f7;
 }
-header__navbar {
-  padding: 10px;
-  text-align: center;
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
 }
-header__item {
+
+.nav-item {
   display: inline-block;
   margin-right: 14px;
   color: #1d2226;
   padding: 8px 13px;
 }
-header__item:hover {
-  background-color: #fff;
-  border: 2px solid #fff;
-  border-radius: 50px;
-}
 
-@media (min-width: 1200px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-  }
-  header ul {
-    display: flex;
-    gap: 20px;
-  }
-}
 .portada {
   height: 100vh;
   background-color: rgb(255, 206, 246);
