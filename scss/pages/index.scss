@@ -1,4 +1,6 @@
 
+  /* hero */
+  
   .portada {
     height: 100vh;
   
@@ -32,6 +34,9 @@ border-radius: 50px;
     }
 
 }
+
+
+/* servicios */
 
 .servicios .row div{
   height:250px; 
@@ -68,4 +73,29 @@ margin: 10px 0;
 }
  
 
+/* testimonios */
 
+.testimonios {
+  padding: 40px 40px 80px 40px;
+}
+
+.testimonios .carousel {
+  max-width: 800px;
+}
+
+.carousel-item {
+height: 500px;
+}
+
+
+/* footer */
+
+.footer {
+  padding: 40px 40px 80px 40px;
+  background-color: black;
+  align-items: center;
+
+&__texto {
+  color: #fff;
+}
+}
