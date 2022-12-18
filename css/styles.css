@@ -18,17 +18,23 @@ a {
   color: black;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 header {
   width: 100%;
-  background-color: #fff;
+  background-color: #E1A3B7;
   position: fixed;
   top: 0;
 }
 
 .navbar {
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
-  background: color #f5f6f7;
 }
 
 .navbar-collapse {
@@ -39,13 +45,13 @@ header {
 .nav-item {
   display: inline-block;
   margin-right: 14px;
-  color: #1d2226;
+  color: #fff;
   padding: 8px 13px;
 }
 
 .portada {
   height: 100vh;
-  background-color: rgb(255, 206, 246);
+  background-color: #E1A3B7;
   background-image: url(../img/woman-washing-head.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,6 +73,34 @@ header {
   border: 2px solid #fff;
   border-radius: 50px;
   margin-top: 30px;
+}
+
+.servicios .row div {
+  height: 250px;
+  background-color: #fff;
+  border: 3px;
+}
+
+.servicios {
+  padding: 40px 40px 60px 40px;
+}
+.servicios__columna {
+  padding: 20px;
+  border: 2px solid #E1A3B7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.servicios__titulo {
+  color: black;
+  font-size: 25px;
+  font-weight: bold !important;
+  margin: 10px 0px;
+}
+.servicios__badges {
+  font-size: 15px;
+  margin: 10px 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,16 +1,15 @@
 
 header {
     width: 100%;
-    background-color: #fff;
+    background-color:#E1A3B7;
     position: fixed;
     top: 0;
   }
 
 
 .navbar{
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
-  background: color #f5f6f7;
 } 
 .navbar-collapse {
   align-items: center;
@@ -20,7 +19,7 @@ header {
 .nav-item {
   display: inline-block;
   margin-right: 14px;
-  color: #1d2226;
+  color: #fff;
   padding: 8px 13px;
 }
 
