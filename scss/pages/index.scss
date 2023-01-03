@@ -1,12 +1,11 @@
 
   /* hero */
   
-  
   .portada {
     height: 100vh;
   
   background-color: #E1A3B7;
-  background-image: url(../img/woman-washing-head.jpg);
+  background-image: url(../img/woman-washing-head.jpg) ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -19,11 +18,11 @@
   
   
 &__titulo {
-  font-size: 2rem;
+  font-size: 2.5rem;
     }
   
 &__parrafo {
-      font-size: 1.3rem;  
+      font-size: 1.5rem;  
     }
   
 &__boton {
@@ -31,7 +30,7 @@
 background-color: #fff;
 border: 2px solid #fff;
 border-radius: 50px;
-  margin-top: 30px;
+  margin-top: 15px;
     }
 
 }
@@ -45,7 +44,7 @@ border-radius: 50px;
   border: 3px;
 }
 .servicios {
-  padding: 40px 40px 60px 40px;
+  padding: 40px 40px 20px 40px;
 
 
 
@@ -79,7 +78,7 @@ margin: 10px 0;
 
 
 .testimonios {
-  padding: 40px 40px 80px 40px;
+  padding: 0px 40px 80px 40px;
 
    &__titulo{
 
@@ -90,9 +89,9 @@ margin: 10px 0;
    }
   
   &__descripcion{
-  color: rgb(74, 74, 74);
-  font-size: 10px;
-  margin: 10px 0px;
+  color: black;
+  font-size: 15px;
+  font-weight: lighter;
   }
 
 }
@@ -103,7 +102,7 @@ margin: 10px 0;
 }
 
 .carousel-item {
-height: 500px;
+height: 250px;
 }
 
 .carousel-item .container {
@@ -115,12 +114,49 @@ align-items: center;
 justify-items: center;
   }
 
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
   .testimonio-imagen {
-    height: 150px;
-    width: 150px;
-    margin: 10px 10px 20px 10px;
+    height: 60px;
+    width: 60px;
+    margin: 30px 10px 20px 10px;
   }
   
+
+.testimonio-texto {
+  max-width: 70%;
+  font-size: 20px;
+ text-align: center; 
+ font-weight: 200;
+ font-style: italic;
+
+}
+
+.testimonio-info {
+ font-weight: bold;
+ text-align: center;
+ margin-bottom: 0; 
+}
+
+.testimonio-info p {
+  margin-bottom: 0; 
+}
+
+@media screen and (max-width: 800) {
+  .testimonio-imagen {
+    height: 120px;
+    width: 120px;
+  }
+
+  .testimonio-texto {
+    font-size: 18px;
+  }
+}
+
 
 
 

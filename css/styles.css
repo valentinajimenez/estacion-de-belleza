@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppins", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Urbanist", sans-serif, "poppins", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 ul,
@@ -63,17 +63,17 @@ header {
   align-items: center;
 }
 .portada__titulo {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .portada__parrafo {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 .portada__boton {
   padding: 8px 28px;
   background-color: #fff;
   border: 2px solid #fff;
   border-radius: 50px;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 /* servicios */
@@ -84,7 +84,7 @@ header {
 }
 
 .servicios {
-  padding: 40px 40px 60px 40px;
+  padding: 40px 40px 20px 40px;
 }
 .servicios__columna {
   padding: 20px;
@@ -107,7 +107,7 @@ header {
 
 /* testimonios */
 .testimonios {
-  padding: 40px 40px 80px 40px;
+  padding: 0px 40px 80px 40px;
 }
 .testimonios__titulo {
   color: black;
@@ -116,9 +116,9 @@ header {
   margin: 10px 0px;
 }
 .testimonios__descripcion {
-  color: rgb(74, 74, 74);
-  font-size: 10px;
-  margin: 10px 0px;
+  color: black;
+  font-size: 15px;
+  font-weight: lighter;
 }
 
 .testimonios .carousel {
@@ -126,7 +126,7 @@ header {
 }
 
 .carousel-item {
-  height: 500px;
+  height: 250px;
 }
 
 .carousel-item .container {
@@ -138,12 +138,44 @@ header {
   justify-items: center;
 }
 
-.testimonio-imagen {
-  height: 150px;
-  width: 150px;
-  margin: 10px 10px 20px 10px;
+.container {
+  display: flex;
+  justify-content: center;
 }
 
+.testimonio-imagen {
+  height: 60px;
+  width: 60px;
+  margin: 30px 10px 20px 10px;
+}
+
+.testimonio-texto {
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.testimonio-info {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.testimonio-info p {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 800) {
+  .testimonio-imagen {
+    height: 120px;
+    width: 120px;
+  }
+  .testimonio-texto {
+    font-size: 18px;
+  }
+}
 /* footer */
 .footer {
   padding: 40px 40px 80px 40px;
