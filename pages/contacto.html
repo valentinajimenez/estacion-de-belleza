@@ -53,5 +53,58 @@
 
 
 
+ <!-- Comienzo formulario --> 
+
+          <section class="contacto d-flex justify-content-center align-items-center">
+              <div class="card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4 p-4"> 
+                 
+                    
+                      <h3 class="contacto__titulo"> Contacto</h3>
+                      <p class="contacto__subtitulo"> Gracias por contactarte con Car Zingale, estación de belleza. Completa el formulario on tus datos para poder coordinar un turno. Te pedimos un poquito de paciencia porque tenemos muchos mensajes.</p>
+              
+                  <div class="mb-1">
+                      <form id = "contacto" >
+                          <div class="mb-4 d-flex justify-content-between"> 
+                              <div>
+                                  <label for="nombre"> <i class="bi bi-person-fill"></i> Nombre</label>
+                                  <input type="text" class="form-control" name="nombre" id="nombre" placeholder= "ej: Valentina" required>
+                                  <div class="nombre text-danger "></div>
+                              </div>
+                              <div >
+                                  <label for="apellido"> Apellido</label>
+                                  <input type="text" class="form-control" name="apellido" id="apellido" placeholder= "ej: Jimenez" required>
+                                  <div class="apellido text-danger"></div>
+                              </div>
+                          </div>
+                          <div class="mb-4">
+                              <label for="correo"> Correo</label>
+                              <input type="email" class="form-control" name="correo" id="correo" placeholder= "ej: valentinajimenez@mail.com" required>
+                              <div class="correo text-danger"></div>
+                              
+                          </div> 
+                          <div class="mb-4">
+                              <label for="sexo">Sexo: </label>
+                              <input type="radio" class="form-check-input"  name="sexo"  value="masculino" > Masculino
+                              <input type="radio" class="form-check-input" name="sexo"  value="femenino" > Femenino
+                              <div class="sexo text-danger"></div>
+                          </div>  
+                          <div class="mb-4">
+                              <label for="mensaje">  Mensaje</label>
+                              <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Hola! Queria cosultar por un turno"></textarea>
+                              <div class="mensaje text-danger"></div>
+                          </div> 
+                          
+                          <div class="mb-2">
+                              <button id ="botton" class="col-12 btn btn-primary d-flex justify-content-between ">
+                                  <span>Enviar </span>
+                              </button>
+                          </div> 
+                                    
+                      </form>
+                  </div>
+              </div>
+          </section>
+       
+
    
     </body>

@@ -186,4 +186,29 @@ header {
   color: #fff;
 }
 
+.accordion {
+  padding: 160px 150px 80px 150px;
+  --bs-accordion-active-color: black;
+  --bs-accordion-btn-focus-border-color: #e1a3b660;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.15rem #E1A3B7;
+  --bs-accordion-active-bg:#e1a3b61e;
+  --bs-accordion-btn-bg: #e1a3b536;
+  --bs-border-color: #E1A3B7;
+}
+
+.contacto {
+  padding: 160px 40px 80px 40px;
+}
+.contacto__titulo {
+  color: #E1A3B7;
+}
+.contacto__subtitulo {
+  font-weight: lighter;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #E1A3B7;
+}
+
 /*# sourceMappingURL=styles.css.map */
