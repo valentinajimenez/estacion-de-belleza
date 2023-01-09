@@ -119,6 +119,8 @@
 .container {
   display: flex;
   justify-content: center;
+  position: absolute;
+
 }
 
 .testimonio-imagen {
@@ -164,7 +166,7 @@
 
 .footer {
   padding: 40px 40px 80px 40px;
-  background-color: black;
+  background-color: rgb(7, 7, 7);
   align-items: center;
 
   &__texto {

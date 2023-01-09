@@ -1,7 +1,24 @@
 
-.accordion {
 
-    padding: 160px 250px 80px 250px;
+.preguntas {
+  padding: 160px 40px 80px 40px;
+  position: fixed;
+
+
+  &__titulo {
+      color: $color-primario;
+  }
+
+&__subtitulo {
+  font-weight: lighter;
+}
+}
+
+
+
+.accordion {
+    position: fixed;
+    padding: 80px 250px 80px 250px;
     --bs-accordion-active-color: black;  
     --bs-accordion-btn-focus-border-color: #e1a3b660;
     --bs-accordion-btn-focus-box-shadow:  0 0 0 0.05rem #E1A3B7;
@@ -11,3 +28,14 @@
 }
 
 
+/* footer */
+
+.footer {
+    padding: 20px 40px 20px 0px;
+    background-color: rgb(7, 7, 7);
+    align-items: center;
+  
+    &__texto {
+      color: #fff;
+    }
+  }
