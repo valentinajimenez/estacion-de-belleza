@@ -50,6 +50,7 @@ header {
 }
 
 .nav-item {
+  font-size: 1.2rem;
   display: inline-block;
   margin-right: 14px;
   color: #fff;
@@ -58,8 +59,7 @@ header {
 
 footer {
   background-color: black;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
   color: #fff;
   position: absolute;
   bottom: 0;
@@ -71,10 +71,10 @@ footer {
   color: #fff;
 }
 .footer-content__copyright {
-  font-size: 1.8rem;
+  font-size: 1rem;
 }
 .footer-content__contact {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .footer-content__social-icons i {
   font-size: 2rem;
@@ -93,8 +93,8 @@ footer {
 .footer-bottom {
   text-align: center;
   background-color: black;
-  font-size: 1.5rem;
-  padding: 2rem 0;
+  font-size: 1rem;
+  padding: 1rem 0;
 }
 .footer-bottom a {
   color: #E1A3B7;
@@ -250,7 +250,6 @@ footer {
 
 .contacto {
   padding: 160px 40px 80px 40px;
-  position: absolute;
   justify-content: center;
   align-items: center;
 }
