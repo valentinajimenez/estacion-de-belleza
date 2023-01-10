@@ -178,16 +178,6 @@ header {
     font-size: 18px;
   }
 }
-/* footer */
-.footer {
-  padding: 0px 40px 80px 40px;
-  background-color: rgb(7, 7, 7);
-  align-items: center;
-}
-.footer__texto {
-  color: #fff;
-}
-
 .preguntas {
   padding: 160px 40px 80px 40px;
 }
@@ -228,34 +218,5 @@ header {
 }
 
 /* footer */
-/* footer */
-.footer {
-  padding: 20px 0px 20px 0;
-  background-color: rgb(7, 7, 7);
-  align-items: center;
-}
-.footer__texto {
-  color: #fff;
-}
-
-.page-section {
-  padding: 6rem 0;
-}
-
-.page-section, .page-section {
-  font-size: 2.5rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-.page-section, .page-section {
-  margin-bottom: 4rem;
-}
-
-@media (min-width: 768px) {
-  section {
-    padding: 9rem 0;
-  }
-}
 
 /*# sourceMappingURL=styles.css.map */

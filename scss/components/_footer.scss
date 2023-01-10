@@ -1,0 +1,63 @@
+footer {
+    background-color: 
+black;
+    padding-top: 2rem;
+    color: $white;
+}
+
+.footer-content {
+    @include display-flex(column, center, center);
+
+    text-align: center;
+    color: $white;
+
+    &__copyright {
+        font-size: 1.8rem;
+    }
+
+    &__contact {
+        font-size: 1.5rem;
+    }
+
+    &__social-icons {
+        @include display-flex(row, center, center);
+
+        i {
+            font-size: 2rem;
+            padding: 2rem 0.7rem 2rem;
+            transition: all 0.3s;
+
+            &:hover {
+                color: $brown;
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+
+.social-button {
+    color: $white;
+}
+
+.footer-bottom {
+    text-align: center;
+    background-color: $black;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+
+    a {
+        color: $purple;
+    }
+}
+
+@include media-up("small-desktop-hd") {
+    .footer {
+        &__copyright {
+            font-size: 2rem;
+        }
+
+        &__contact {
+            font-size: 1.5rem;
+        }
+    }
+}
