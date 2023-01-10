@@ -238,7 +238,22 @@ footer {
   --bs-border-color: #E1A3B7 ;
 }
 
+.contacto {
+  padding: 160px 40px 80px 40px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+.contacto__titulo {
+  color: #E1A3B7;
+}
+.contacto__subtitulo {
+  font-weight: lighter;
+}
 
-
+.btn-primary {
+  color: #fff;
+  background-color: #E1A3B7;
+}
 
 /*# sourceMappingURL=styles.css.map */
