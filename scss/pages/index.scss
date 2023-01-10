@@ -100,6 +100,7 @@
 
 .testimonios .carousel {
   max-width: 800px;
+  padding-bottom: 80px;
 }
 
 .carousel-item {
@@ -119,7 +120,6 @@
 .container {
   display: flex;
   justify-content: center;
-  position: absolute;
 
 }
 
@@ -149,15 +149,5 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 800) {
-  .testimonio-imagen {
-    height: 120px;
-    width: 120px;
-  }
-
-  .testimonio-texto {
-    font-size: 18px;
-  }
-}
 
 

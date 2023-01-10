@@ -1,0 +1,41 @@
+.Nosotras {
+    padding: 160px 40px 80px 40px;
+    align-items: center;
+    justify-content: space-between;
+
+
+    &__contenedor {
+        display: flex;
+        padding: 10px 150px 80px 150px;
+    }
+
+    &__titulo {
+        color: $color-primario;
+    }
+
+    &__parrafos {
+        padding: 10px 100px 10px 10px;
+
+    }
+
+    &__lista {
+     
+    
+    }
+
+     &__items {
+        list-style: circle;
+  
+     }
+     
+    .ilustration {
+        box-shadow: 0 3px 10px #00000038;
+        width: 500px;
+        border-radius: 20px;
+        margin: 0 25px;
+
+        @media only screen and (max-width : 600px) {
+            width: 350px;
+        }
+    }
+}
