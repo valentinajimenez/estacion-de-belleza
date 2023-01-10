@@ -50,6 +50,46 @@ header {
   padding: 8px 13px;
 }
 
+footer {
+  background-color: black;
+  padding-top: 2rem;
+  color: #fff;
+}
+
+.footer-content {
+  text-align: center;
+  color: #fff;
+}
+.footer-content__copyright {
+  font-size: 1.8rem;
+}
+.footer-content__contact {
+  font-size: 1.5rem;
+}
+.footer-content__social-icons i {
+  font-size: 2rem;
+  padding: 2rem 0.7rem 2rem;
+  transition: all 0.3s;
+}
+.footer-content__social-icons i:hover {
+  color: #E1A3B7;
+  transform: scale(1.05);
+}
+
+.social-button {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  background-color: black;
+  font-size: 1.5rem;
+  padding: 2rem 0;
+}
+.footer-bottom a {
+  color: #E1A3B7;
+}
+
 /* hero */
 .portada {
   height: 100vh;
@@ -198,25 +238,7 @@ header {
   --bs-border-color: #E1A3B7 ;
 }
 
-/* footer */
-.contacto {
-  padding: 160px 40px 80px 40px;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-}
-.contacto__titulo {
-  color: #E1A3B7;
-}
-.contacto__subtitulo {
-  font-weight: lighter;
-}
 
-.btn-primary {
-  color: #fff;
-  background-color: #E1A3B7;
-}
 
-/* footer */
 
 /*# sourceMappingURL=styles.css.map */

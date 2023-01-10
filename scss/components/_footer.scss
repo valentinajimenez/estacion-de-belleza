@@ -2,14 +2,14 @@ footer {
     background-color: 
 black;
     padding-top: 2rem;
-    color: $white;
+    color:#fff;
 }
 
 .footer-content {
-    @include display-flex(column, center, center);
+
 
     text-align: center;
-    color: $white;
+    color: #fff;
 
     &__copyright {
         font-size: 1.8rem;
@@ -20,7 +20,7 @@ black;
     }
 
     &__social-icons {
-        @include display-flex(row, center, center);
+
 
         i {
             font-size: 2rem;
@@ -28,7 +28,7 @@ black;
             transition: all 0.3s;
 
             &:hover {
-                color: $brown;
+                color: $color-primario;
                 transform: scale(1.05);
             }
         }
@@ -36,28 +36,17 @@ black;
 }
 
 .social-button {
-    color: $white;
+    color: #fff;
 }
 
 .footer-bottom {
     text-align: center;
-    background-color: $black;
+    background-color: black;
     font-size: 1.5rem;
     padding: 2rem 0;
 
     a {
-        color: $purple;
+        color: $color-primario;
     }
 }
 
-@include media-up("small-desktop-hd") {
-    .footer {
-        &__copyright {
-            font-size: 2rem;
-        }
-
-        &__contact {
-            font-size: 1.5rem;
-        }
-    }
-}
