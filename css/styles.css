@@ -25,6 +25,12 @@ section {
   justify-content: center;
 }
 
+body {
+  position: relative;
+  padding-bottom: 3rem;
+  min-height: 100vh;
+}
+
 header {
   width: 100%;
   background-color: #E1A3B7;
@@ -53,7 +59,11 @@ header {
 footer {
   background-color: black;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-content {
