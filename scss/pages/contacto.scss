@@ -1,6 +1,10 @@
 .contacto {
     padding: 160px 40px 80px 40px;
     position: absolute;
+ justify-content: center;
+ align-items: center;
+
+
  
 
     &__titulo {
@@ -20,12 +24,3 @@ background-color: $color-primario;
 
 /* footer */
 
-.footer {
-    padding: 20px 0px 20px 0;
-    background-color: rgb(7, 7, 7);
-    align-items: center;
-  
-    &__texto {
-      color: #fff;
-    }
-  }

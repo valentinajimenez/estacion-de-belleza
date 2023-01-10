@@ -2,7 +2,7 @@
 
 .preguntas {
   padding: 160px 40px 80px 40px;
-  position: fixed;
+
 
 
   &__titulo {
@@ -17,7 +17,7 @@
 
 
 .accordion {
-    position: fixed;
+
     padding: 80px 250px 80px 250px;
     --bs-accordion-active-color: black;  
     --bs-accordion-btn-focus-border-color: #e1a3b660;
@@ -30,12 +30,3 @@
 
 /* footer */
 
-.footer {
-    padding: 20px 40px 20px 0px;
-    background-color: rgb(7, 7, 7);
-    align-items: center;
-  
-    &__texto {
-      color: #fff;
-    }
-  }
