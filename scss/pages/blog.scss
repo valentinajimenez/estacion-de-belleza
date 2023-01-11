@@ -14,8 +14,6 @@
 }
 }
 
-
-
 .accordion {
 
     --bs-accordion-active-color: black;  
@@ -26,3 +24,12 @@
     --bs-border-color: #E1A3B7 ;
 }
 
+
+
+
+@media screen and (max-width:600px) {
+  .preguntas {
+    padding: 100px 40px 140px 40px;
+
+}
+}

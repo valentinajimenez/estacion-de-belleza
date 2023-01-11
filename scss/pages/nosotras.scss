@@ -18,16 +18,7 @@
 
     }
 
-    &__lista {
-     
-    
-    }
 
-     &__items {
-        list-style: circle;
-  
-     }
-     
     .ilustration {
         box-shadow: 0 3px 10px #00000038;
         width: 500px;
@@ -35,7 +26,27 @@
         margin: 0 25px;
 
         @media only screen and (max-width : 600px) {
-            width: 350px;
+            width: 260px;
         }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Nosotras {
+        padding: 80px 60px 120px 60px;
+
+
+        &__contenedor {
+            padding: 10px;
+            display: grid;
+        }
+
+        &__parrafos {
+            padding: 10px 40px;
+        }
+
+     
+
+        
     }
 }

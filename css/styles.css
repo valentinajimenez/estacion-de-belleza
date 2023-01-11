@@ -207,7 +207,7 @@ footer {
 
 .testimonio-texto {
   max-width: 70%;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   font-weight: 200;
   font-style: italic;
@@ -221,8 +221,22 @@ footer {
 
 .testimonio-info p {
   margin-bottom: 0;
+  font-size: 12px;
 }
 
+@media screen and (max-width: 600px) {
+  .testimonio-imagen {
+    height: 40px;
+    width: 40px;
+    margin: 10px 10px 20px 10px;
+  }
+  .testimonio-texto {
+    font-size: 12px;
+  }
+  .testimonio-info p {
+    font-size: 10px;
+  }
+}
 .preguntas {
   padding: 160px 40px 80px 40px;
 }
@@ -242,6 +256,11 @@ footer {
   --bs-border-color: #E1A3B7 ;
 }
 
+@media screen and (max-width: 600px) {
+  .preguntas {
+    padding: 100px 40px 140px 40px;
+  }
+}
 .contacto {
   padding: 160px 40px 80px 40px;
   justify-content: center;
@@ -259,6 +278,11 @@ footer {
   background-color: #E1A3B7;
 }
 
+@media screen and (max-width: 600px) {
+  .contacto {
+    padding: 120px 40px 120px 40px;
+  }
+}
 img {
   border-radius: 20px 20px 0 0;
 }
@@ -282,6 +306,11 @@ img {
   margin: 0;
 }
 
+@media screen and (max-width: 600px) {
+  .contenedor-servicios {
+    padding: 120px 40px 160px 40px;
+  }
+}
 .Nosotras {
   padding: 160px 80px 80px 80px;
   align-items: center;
@@ -297,9 +326,6 @@ img {
 .Nosotras__parrafos {
   padding: 10px 100px 10px 10px;
 }
-.Nosotras__items {
-  list-style: circle;
-}
 .Nosotras .ilustration {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2196078431);
   width: 500px;
@@ -308,7 +334,20 @@ img {
 }
 @media only screen and (max-width: 600px) {
   .Nosotras .ilustration {
-    width: 350px;
+    width: 260px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Nosotras {
+    padding: 80px 60px 120px 60px;
+  }
+  .Nosotras__contenedor {
+    padding: 10px;
+    display: grid;
+  }
+  .Nosotras__parrafos {
+    padding: 10px 40px;
   }
 }
 

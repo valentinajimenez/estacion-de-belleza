@@ -1,0 +1,8 @@
+@mixin text-bold {
+    font-weight: 600;
+  }
+  
+  @mixin safe-area {
+    margin: 0 auto;
+    max-width: 1200px;
+  }

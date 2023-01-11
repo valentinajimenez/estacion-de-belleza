@@ -28,7 +28,13 @@ img {
         margin: 0;
       }
   
-  
      
     }
   }
+
+  @media screen and (max-width:600px) {
+    .contenedor-servicios {
+      padding: 120px 40px 160px 40px;
+
+  }
+}
