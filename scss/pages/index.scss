@@ -31,6 +31,11 @@
     border: 2px solid #fff;
     border-radius: 50px;
     margin-top: 15px;
+    
+    &:hover {
+      box-shadow: 0 5px 10px $color-primario;
+      transition: 0.3s;
+    }
   }
 
 }
@@ -69,6 +74,9 @@
   &__badges {
     font-size: 15px;
     margin: 10px 0;
+
+   
+    }
   }
 
 }

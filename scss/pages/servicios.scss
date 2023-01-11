@@ -6,8 +6,6 @@ img {
   
 
 
-
-
   .contenedor-servicios {
     padding: 160px 40px 80px 40px;
     display: flex;
@@ -15,33 +13,21 @@ img {
     justify-content: space-between;
     flex-wrap: wrap;
   
-    .cardArticle {
-      width: 360px;
-      height: 360px;
-      margin: 12px;
-      background-color: #FFFFFF;
-      border-radius: 20px;
-      box-shadow: 0 3px 10px #00000038;
-      display: inline-block;
+    .card {
   
       &:hover {
         box-shadow: 0 5px 10px $color-primario;
         transition: 0.3s;
       }
   
-      .titulo-servicios {
+      .card-title {
         font-weight: 600;
         font-size: 16px;
         color: #000000;
-        padding: 18px 12px 6px 12px;
+        padding: 10px 0px 6px 0px;
         margin: 0;
       }
   
-      .parrafo-servicios {
-        padding: 10px 12px 6px 12px;
-      }
-
-
   
      
     }
