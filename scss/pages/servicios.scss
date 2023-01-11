@@ -1,0 +1,48 @@
+img {
+
+    border-radius: 20px 20px 0 0;
+ 
+  }
+  
+
+
+
+
+  .contenedor-servicios {
+    padding: 160px 40px 80px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    .cardArticle {
+      width: 360px;
+      height: 360px;
+      margin: 12px;
+      background-color: #FFFFFF;
+      border-radius: 20px;
+      box-shadow: 0 3px 10px #00000038;
+      display: inline-block;
+  
+      &:hover {
+        box-shadow: 0 5px 10px $color-primario;
+        transition: 0.3s;
+      }
+  
+      .titulo-servicios {
+        font-weight: 600;
+        font-size: 16px;
+        color: #000000;
+        padding: 18px 12px 6px 12px;
+        margin: 0;
+      }
+  
+      .parrafo-servicios {
+        padding: 10px 12px 6px 12px;
+      }
+
+
+  
+     
+    }
+  }
